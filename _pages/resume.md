@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -11,49 +11,42 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Earned: B.S. in Computer Science, Minor in Computer Engineering - University of California, Santa Cruz (June 2019)
+* Pursuing: M.S. in Computer Engineering - University of California, Santa Cruz
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2018 to Present: Undergraduate, Graduate Researcher
+  * May 2018 to June 2019 (undergraduate), June 2019 to Present (Graduate)
+  * University of California, Santa Cruz
+  * Used C++ to upgrade a system that translated Verilog to in-house HDL Pyrope.
+  * Currently implementing an algorithm to minimize bitwidths of variables in Verilog and Pyrope designs.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2019 to September 2019: Microprocessor Verification Engineer, Intern
+  * SiFive
+  * Worked in Core Verification, focusing on verifying the interaction between our cores and a memory protection unit we designed for a very large customer.
+  * Designed new verification infrastructure that leveraged Verilog DPI interface to have C functions control signals internal to the core.
+  
+* September 2019 to Present: Teaching Assistant (CSE 121)
+  * Jack Baskin School of Engineering, UCSC
+  * Act as a mentor for undergraduates, teaching them the fundamentals of microprocessor design leveraging C, hardware components, and inter-device communication.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages:
+  * Proficient: Verilog, C++, C
+  * Familiar: Chisel, Python, Java, Javascript
+* Frameworks and Tools:
+  * RISC-V, Verdi, Vivado Design Suite, Yosys Open Synthesis Suite, TileLink, AMBA, Verilator Simulation Tool, Git, Unix, LaTeX
+  
+Notable Projects
+=====
+* RISC-V Pipeline
+  * May 2018
+  * Created an in-order five stage pipeline in Verilog. It executes any instructions in the 32I/64I set. Used dhrystone as a testbench.
+  * After completion, used Yosys synthesis tool to optimize design.
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Multi-Server Password Cracker
+  * May 2018
+  * Developed a C++ program that received a packet of hashed passwords then sent information to three other servers where they were to be solved. Also programmed each server with a multi-threaded algorithm that decoded up to 16 passwords at a time.
+  * All network communication was via TCP.
