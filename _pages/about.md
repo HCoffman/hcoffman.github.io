@@ -18,6 +18,7 @@ My particular research interests lie in the domain of Computer Architecture, imp
 
 Papers and articles related to my field of research
 ======
+
 Bitwidth Inference:
 -------
 [Bitwidth Analysis with Applications to Silicon Compilation](http://groups.csail.mit.edu/cag/bitwise/bitwise-pldi2k.pdf)
