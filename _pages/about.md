@@ -41,4 +41,8 @@ For those who may not know, SiFive is a company that was made in making RISC-V C
 
 For more info
 ------
-If you'd like to contact me, send an email to coffmanhunter@gmail.com!
+If you'd like to contact me, send an email to coffmanhunter@gmail.com! My resume is also on one of the other pages found on this website.
+
+Website Template
+------
+This website was originally forked from [https://academicpages.github.io/](https://academicpages.github.io/), all thanks go to them for designing such an easy to use template.
