@@ -19,17 +19,17 @@ My particular research interests lie in the domain of Computer Architecture, imp
 Papers and articles related to my field of research
 ======
 Bitwidth Inference:
-
+-------
 [Bitwidth Analysis with Applications to Silicon Compilation](http://groups.csail.mit.edu/cag/bitwise/bitwise-pldi2k.pdf)
 
 Chisel/FIRRTL (UC Berkeley research):
-
+-------
 [Chisel: Constructing Hardware in a Scala Embedded Language](https://people.eecs.berkeley.edu/~krste/papers/chisel-dac2012.pdf)
 
 [Specifications for the FIRRTL Language](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-9.pdf)
 
 Parallel Processing:
-
+-------
 [The Accelerator Wall: Limits of Chip Specialization](https://parallel.princeton.edu/papers/wall-hpca19.pdf)
 
 Work Experience
