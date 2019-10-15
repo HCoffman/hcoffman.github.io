@@ -18,15 +18,23 @@ My particular research interests lie in the domain of Computer Architecture, imp
 
 Papers and articles related to my field of research
 ======
+Bitwidth Inference:
+
 [Bitwidth Analysis with Applications to Silicon Compilation](http://groups.csail.mit.edu/cag/bitwise/bitwise-pldi2k.pdf)
+
+Chisel/FIRRTL (UC Berkeley research):
 
 [Chisel: Constructing Hardware in a Scala Embedded Language](https://people.eecs.berkeley.edu/~krste/papers/chisel-dac2012.pdf)
 
 [Specifications for the FIRRTL Language](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-9.pdf)
 
+Parallel Processing:
+
+[The Accelerator Wall: Limits of Chip Specialization](https://parallel.princeton.edu/papers/wall-hpca19.pdf)
+
 Work Experience
 ======
-From June 2019 to September 2019 I worked as an intern for SiFive's Verification Engineering team, specifically focusing on Core Verification. I added new test infrastructure using the Verilog DPI interface to make calls out to C functions that controled signals internal to the core. I also worked on verifying the core's interaction with a newly designed memory protection component for a very large customer.
+From June 2019 to September 2019 I worked as an intern for SiFive's Verification Engineering team, specifically focusing on Core Verification. I added new test infrastructure using the Verilog DPI interface to make calls out to C functions that controled signals internal to the core. I also worked on verifying the core's interaction with a newly designed memory protection component for a very large customer. There I gained experience in verification methodology, writing Chisel code, applying academic concepts to real-life solutions (cache coherency protocols), and working in a high-intensity (but also high fun!) work environment.
 
 For those who may not know, SiFive is a company that was made in making RISC-V CoreIP. A lot of the original designers of RISC-V work for the company. Go SiFive!
 
