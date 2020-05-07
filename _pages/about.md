@@ -16,6 +16,16 @@ I graduated from the University of California, Santa Cruz in June 2019 with a Ba
 
 My particular research interests lie in the domain of Computer Architecture, improving Hardware Design flow, and emerging hardware description languages (HDLs) such as Chisel and Pyrope. I'm a member of the [MASC](https://masc.soe.ucsc.edu/) (Micro-Architecture Santa Cruz) research group. Currently, our main focus is on making our own HDL called [Pyrope](https://masc.soe.ucsc.edu/pyrope.html#1) and also by making the hardware design flow much more efficient through our project LiveHD. My specific contribution to [LiveHD](https://github.com/masc-ucsc/livehd) is currently through creating a bitwidth inference/optimization pass and eventually I also plan on allowing LiveHD to interface between FIRRTL (research from UC Berkeley) and our software tool.
 
+Work Experience
+======
+From June 2019 to September 2019 I worked as an intern for SiFive's Verification Engineering team, specifically focusing on Core Verification. I added new test infrastructure using the Verilog DPI interface to make calls out to C functions that controled signals internal to the core. I also worked on verifying the core's interaction with a newly designed memory protection component for a very large customer. There I gained experience in verification methodology, writing Chisel code, applying academic concepts to real-life solutions (cache coherency protocols), and working in a high-intensity (but also high fun!) work environment.
+
+For those who may not know, SiFive is a company that was made in making RISC-V CoreIP. A lot of the original designers of RISC-V work for the company. Go SiFive!
+
+For more info
+------
+If you'd like to contact me, send an email to coffmanhunter@gmail.com! My resume is also on one of the other pages found on this website.
+
 Papers and articles related to my field of research
 ======
 
@@ -32,16 +42,6 @@ Chisel/FIRRTL (UC Berkeley research):
 Parallel Processing:
 -------
 [The Accelerator Wall: Limits of Chip Specialization](https://parallel.princeton.edu/papers/wall-hpca19.pdf)
-
-Work Experience
-======
-From June 2019 to September 2019 I worked as an intern for SiFive's Verification Engineering team, specifically focusing on Core Verification. I added new test infrastructure using the Verilog DPI interface to make calls out to C functions that controled signals internal to the core. I also worked on verifying the core's interaction with a newly designed memory protection component for a very large customer. There I gained experience in verification methodology, writing Chisel code, applying academic concepts to real-life solutions (cache coherency protocols), and working in a high-intensity (but also high fun!) work environment.
-
-For those who may not know, SiFive is a company that was made in making RISC-V CoreIP. A lot of the original designers of RISC-V work for the company. Go SiFive!
-
-For more info
-------
-If you'd like to contact me, send an email to coffmanhunter@gmail.com! My resume is also on one of the other pages found on this website.
 
 Website Template
 ------
