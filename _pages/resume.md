@@ -16,17 +16,17 @@ Education
 
 Work experience
 ======
-__Undergraduate & Graduate Researcher__
+__Undergraduate & Graduate Researcher__<br/><br/>
 _University of California, Santa Cruz — May 2018 to Present_
 * Implemented an algorithm which minimizes bitwidths of variables in hardware designs.
 * Currently designing a bridge so FIRRTL/Chisel hardware designs can interface with a live synthesis/simulation framework called LiveHD. Goal is to leverage LiveHD so these designs can have immensely shorter synthesis and simulation times.
 
-__Microprocessor Verification Engineer, Intern__
+__Microprocessor Verification Engineer, Intern__<br/><br/>
 _SiFive — June 2019 to September 2019_
 * Verified the interaction between our cores and a new memory protection unit.
 * Designed new verification infrastructure that leveraged the Verilog DPI interface to have C functions control signals internal to the core during simulation.
   
-__Teaching Assistant: Microprocessor System Design, Computer Architecture__
+__Teaching Assistant: Microprocessor System Design, Computer Architecture__<br/><br/>
 _Jack Baskin School of Engineering, UCSC — September 2019 to March 2020_
 * Acted as a mentor for undergraduates, teaching them the fundamentals of microprocessor design leveraging C, hardware components, and inter-device communication.
 * Taught students about computer architecture principles and pipelining techniques.
