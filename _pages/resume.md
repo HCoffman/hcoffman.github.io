@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+If you would like to see this resume in a .pdf format: click [here](https://drive.google.com/file/d/15F-hsymGFM6HASOkN8agIjTwPvjxp1bG/view?usp=sharing)!
+
 Education
 ======
 * Earned: B.S. in Computer Science, Minor in Computer Engineering - University of California, Santa Cruz (June 2019)
