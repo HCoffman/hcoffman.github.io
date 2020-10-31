@@ -9,13 +9,13 @@ redirect_from:
 
 {% include base_path %}
 
-If you would like to see this resume in a .pdf format: click [here](https://drive.google.com/file/d/15F-hsymGFM6HASOkN8agIjTwPvjxp1bG/view?usp=sharing)!
+If you would like to see this resume in a .pdf format: click [here](https://drive.google.com/file/d/15kqhtFYEZNF1OATLi7TJnflyLbzZVcae/view?usp=sharing)!
 
 Education
 ======
-* Earned:
-  * M.S. in Computer Engineering - University of California, Santa Cruz (September 2020, GPA: 4.0)
-  * B.S. in Computer Science, Minor in Computer Engineering - University of California, Santa Cruz (June 2019)
+__University of California, Santa Cruz__
+* M.S. in Computer Engineering (September 2020, GPA: 4.0)
+* B.S. in Computer Science, Minor in Computer Engineering (June 2019)
 
 Work experience
 ======
@@ -46,7 +46,7 @@ __Programming Languages:__
 * Familiar: Chisel, Haskell, Python, Java
 
 __Frameworks and Tools:__
-* RISC-V, UVM, Verdi, AHB, APB, AXI, TileLink, Verilator Simulation Tool, Yosys Open Synthesis Suite, Git, Unix, LaTeX
+* RISC-V, UVM, Verdi, AHB, APB, AXI, TileLink, Yosys Open Synthesis Suite, Verilator Simulation Tool, Git, Unix, LaTeX
   
 Notable Projects
 =====
