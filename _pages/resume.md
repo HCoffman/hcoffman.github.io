@@ -13,15 +13,21 @@ If you would like to see this resume in a .pdf format: click [here](https://driv
 
 Education
 ======
-* Earned: B.S. in Computer Science, Minor in Computer Engineering - University of California, Santa Cruz (June 2019)
-* Pursuing: M.S. in Computer Engineering - University of California, Santa Cruz (Expected August 2019)
+* Earned:
+  * M.S. in Computer Engineering - University of California, Santa Cruz (September 2020, GPA: 4.0)
+  * B.S. in Computer Science, Minor in Computer Engineering - University of California, Santa Cruz (June 2019)
 
 Work experience
 ======
-__Undergraduate & Graduate Researcher__<br/><br/>
-_University of California, Santa Cruz — May 2018 to Present_
-* Implemented an algorithm which minimizes bitwidths of variables in hardware designs.
-* Currently designing a bridge so FIRRTL/Chisel hardware designs can interface with a live synthesis/simulation framework called LiveHD. Goal is to leverage LiveHD so these designs can have immensely shorter synthesis and simulation times.
+__SOC Design Verification Engineer__<br/><br/>
+_Apple — September 2020 to Present_
+* (More specific details about my work in this role will be added in the future.)
+
+__Undergraduate & Graduate Researcher (MASC Lab)__<br/><br/>
+_University of California, Santa Cruz — May 2018 to September 2020_
+* Served as one of the main contributors to the lab's open-source hardware compiler, LiveHD. 
+  * Worked on a novel thesis that focused on bi-directionally translating multiple HDLs between one another to create a language-agnostic framework. (See the Notable Projects section below)
+  * Implemented an algorithm which minimizes bitwidths of variables in hardware designs.
 
 __Microprocessor Verification Engineer, Intern__<br/><br/>
 _SiFive — June 2019 to September 2019_
@@ -40,14 +46,15 @@ __Programming Languages:__
 * Familiar: Chisel, Haskell, Python, Java
 
 __Frameworks and Tools:__
-* RISC-V, Verdi, Vivado Design Suite, Yosys Open Synthesis Suite, TileLink, AMBA, Verilator Simulation Tool, Git, Unix, LaTeX
+* RISC-V, UVM, Verdi, AHB, APB, AXI, TileLink, Verilator Simulation Tool, Yosys Open Synthesis Suite, Git, Unix, LaTeX
   
 Notable Projects
 =====
+__Thesis: Bridging Intermediate Representations to Achieve Hardware Design Language Translation__
+* Designed and implemented novel translation techniques which bi-directionally map the FIRRTL intermediate representation (IR) to the LNAST IR. Used in the open-source hardware design framework, LiveHD.
+* Created a process that translates from LiveHD's internal graph-like representation for a hardware design to its abstract syntax tree-like representation. This facilitated the translation between low-level HDLs like Verilog to abstract, open-source HDLs like Chisel or Pyrope.
+* At the time of writing, this work performed at speeds between four to ten times faster than any other similar works.
+
 __RISC-V Pipeline__
 * Created an in-order five stage pipeline in Verilog. It executes any instructions in the 32I/64I set. Used dhrystone as a testbench.
 * After completion, used Yosys synthesis tool to optimize design.
-
-__Multi-Server Password Cracker__
-* Developed a C++ program that received a packet of hashed passwords then sent information to three other servers where they were to be solved. Also programmed each server with a multi-threaded algorithm that decoded up to 16 passwords at a time.
-* All network communication was via TCP.
