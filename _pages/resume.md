@@ -55,6 +55,6 @@ __Thesis: Bridging Intermediate Representations to Achieve Hardware Design Langu
 * Created a process that translates from LiveHD's internal graph-like representation for a hardware design to its abstract syntax tree-like representation. This facilitated the translation between low-level HDLs like Verilog to abstract, open-source HDLs like Chisel or Pyrope.
 * At the time of writing, this work performed at speeds between four to ten times faster than any other similar works.
 
-__RISC-V Pipeline__
-* Created an in-order five stage pipeline in Verilog. It executes any instructions in the 32I/64I set. Used dhrystone as a testbench.
+__RISC-V Processor__
+* Created an in-order five stage process in Verilog. It executes any instructions in the 32I/64I set. Used dhrystone as a testbench.
 * After completion, used Yosys synthesis tool to optimize design.
